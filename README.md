@@ -1,5 +1,5 @@
 # cpp-progress
-I have not coded in C++ for a while and I came back to it recently because of my college. So I decided to make a simple console app where I can practice and share what do we learn in the college basically. Due to having a previous experience in C++, the code is well organized and clean without any errors. Anyone is free to use this code to learn more about C++.
+I have not coded in C++ for a while and I came back to it recently because of my college. So I decided to make a simple console app where I can practice and share what we learn in college basically. Due to having a previous experience in C++, the code is well organized and clean without any errors. Anyone is free to use this code to learn more about C++.
 
 #### Features in the console application:
 * BMI Calculator (calculates your BMI using weight and height)
