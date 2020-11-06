@@ -3,14 +3,12 @@ using namespace std;
 
 int main()
 {
-	cout << "[*********************************************************]\n";
 	printf("[*						    	 *]\n");
 	printf("[*		C++ Programming Exercise		 *]\n");
 	printf("[*		Computer Programming I			 *]\n");
 	printf("[*		Author: Shady Amr			 *]\n");
 	printf("[*		Date : Friday, Nov. 06 2020		 *]\n");
-	printf("[*							 *]\n");
-	cout << "[*********************************************************]\n\n";
+	printf("[*							 *]\n\n");
 
 	//BMI Calculator
 	printf("1. BMI Calculator has started.\n");
@@ -31,10 +29,15 @@ int main()
 	char letter_c = 'C', letter_p = 'P', letter_p2 = 'P';
 	cout << "* " << letter_c << letter_p << letter_p2 << endl;
 
-	//Area of Circle - skipped until solved.
-/*	printf("\n3. Area of Circle formula.\n");
+	//Area of Circle
+	printf("\n3. Area of Circle formula.\n");
 
-	cout << "* Enter the radius for the AOC." << endl;*/
+	double aoc, aoc_r;
+	cout << "* Enter the radius for the AOC." << endl;
+	cin >> aoc_r;
+
+	aoc = 3.14 * pow(aoc_r, 2);
+	cout << "The result for AOC is " << aoc << endl;
 
 	//Simple sum calculator.
 	printf("\n4. Printing out the sum of two numbers.\n");
