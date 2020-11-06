@@ -3,15 +3,14 @@ using namespace std;
 
 int main()
 {
-	//Initializing the application
-	printf("[*********************************************************]\n");
+	cout << "[*********************************************************]\n";
 	printf("[*						    	 *]\n");
 	printf("[*		C++ Programming Exercise		 *]\n");
 	printf("[*		Computer Programming I			 *]\n");
 	printf("[*		Author: Shady Amr			 *]\n");
 	printf("[*		Date : Friday, Nov. 06 2020		 *]\n");
 	printf("[*							 *]\n");
-	printf("[*********************************************************]\n\n");
+	cout << "[*********************************************************]\n\n";
 
 	//BMI Calculator
 	printf("1. BMI Calculator has started.\n");
