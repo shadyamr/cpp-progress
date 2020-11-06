@@ -1,0 +1,2 @@
+C:\Users\PC\source\repos\cpp-progress\x64\Debug\cpp-progress.exe
+C:\Users\PC\source\repos\cpp-progress\x64\Debug\cpp-progress.pdb
