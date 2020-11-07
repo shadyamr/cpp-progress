@@ -10,3 +10,4 @@ I have not coded in C++ for a while and I came back to it recently because of my
 * Odd or Even Number (takes a number from the user and checks if it is odd or even)
 * MultipleBy5 Check (takes a number from the user and checks if this number is multiple by 5 or not)
 * AOS&AOR (takes a number from the user and runs Area of Square & Area of Rectangle formulas and check which is greater)
+* Vowel Letter Check (takes a letter from the user and checks if the letter is a vowel or not)
