@@ -103,10 +103,52 @@ int main()
 
 	if (mf_numb % 5 == 0)
 	{
-		cout << "* " << mf_numb << " can be multipled by 5.\n" << endl;
+		cout << "* " << mf_numb << " can be multipled by 5." << endl;
 	}
 	else {
-		cout << "* " << mf_numb << " can not be multipled by 5.\n" << endl;
+		cout << "* " << mf_numb << " can not be multipled by 5." << endl;
+	}
+
+	//AOC&AOR Greatest.
+	printf("\n8. Area of Square & Area of Rectangle Greatest.\n");
+
+	double n_length, n_width, aos, aor;
+	cout << "* Please enter a number for length." << endl;
+	cin >> n_length;
+
+	cout << "* Please enter a number for width." << endl;
+	cin >> n_width;
+
+	aos = pow(n_length, 2);
+	aor = n_length * n_width;
+
+	if (aos > aor)
+	{
+		cout << "* Area of Square is greater than the Area of Rectangle." << endl;
+	}
+	else
+	{
+		cout << "* Area of Rectangle is greater than the Area of Square." << endl;
+	}
+
+	//Vowel Letters Check.
+	printf("\n9. Vowel Letters Check\n");
+
+	char vowel;
+	cout << "* Enter a letter to decide the type." << endl;
+	cin >> vowel;
+
+	if (vowel == 'A' || vowel == 'E' || vowel == 'I' || vowel == 'O' || vowel == 'U' || vowel == 'Y')
+	{
+		cout << "This letter '" << vowel << "' is a vowel.\n" << endl;
+	}
+	else if (vowel == 'a' || vowel == 'e' || vowel == 'i' || vowel == 'o' || vowel == 'u' || vowel == 'y')
+	{
+		cout << "This letter '" << vowel << "' is a vowel.\n" << endl;
+	}
+	else
+	{
+		cout << "This letter '" << vowel << "' is not a vowel.\n" << endl;
 	}
 
 	system("pause");
